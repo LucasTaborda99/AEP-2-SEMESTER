@@ -1,4 +1,4 @@
-# AEP1
+# AEP 2º SEMESTRE - ADS
  - Consumo e Produção Responsáveis - Assegurar padrões de produção e de consumo sustentáveis. 
 
  - Resumo: Operações de varejo são criadas com o negócio em mente. Procedimentos são criados para que as lojas funcionem da maneira mais eficiente e econômica. 
