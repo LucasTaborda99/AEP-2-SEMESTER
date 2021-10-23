@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Empresas</h1>
+        <p id="subtitulo">Complete as informações</p>
+        <br>
+    </div>
+
+    <form>
+
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label for="nome"><strong>Nome (não obrigatório)</strong></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="campo">
+                <label for="razao"><strong>Razão Social</strong></label>
+                <input type="text" name="razao" id="razao" required>
+            </div>
+
+        </fieldset>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label for="cnpj"><strong>CNPJ</strong></label>
+                <input type="text" name="cnpj" id="cnpj" required>
+            </div>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+        </fieldset>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label for="endereco"><strong>Endereço</strong></label>
+                <input type="text" name="endereco" id="endereco" required>
+            </div>
+
+            <div class="campo">
+                <label for="cep"><strong>CEP</strong></label>
+                <input type="text" name="cep" id="cep" required>
+            </div>
+
+        </fieldset>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label for="pais"><strong>País</strong></label>
+                <select id="pais" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Brasil</option>
+                    <option>Portugal</option>
+                    <option>Estados Unidos</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="uf"><strong>UF</strong></label>
+                <select id="uf" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>PR</option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="cidade"><strong>Cidade</strong></label>
+                <select id="cidade" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Curitiba</option>
+                    <option>Paranaguá</option>
+                    <option>São José dos Pinhais</option>
+                </select>
+            </div>
+
+        </fieldset>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label for="site"><strong>Site</strong></label>
+                <input type="text" name="site" id="site" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input type="text" name="telefone" id="telefone" required>
+            </div>
+
+        </fieldset>
+
+        <div class="campo">
+            <label for="senha" id="senha"><strong>Senha</strong></label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+
+        <button class="botao" type="submit" onsubmit="">Concluído</button>
+
+    </form>
+
+    <div class="recuperar">
+        <label for="recuperar"><a href="https://linkrecuperacao.com"><strong>Recuperar senha</strong></a></label>
+    </div>
+
+    <div class="cadastrado">
+        <label for="cadastrado"><a href="/Login/index.html"><strong>Já tenho conta</strong></a></label>
+    </div>
+
+</body>
+</html>
